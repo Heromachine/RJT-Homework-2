@@ -1,5 +1,5 @@
 
-public class main {
+public class BubbleSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,7 +19,7 @@ public class main {
 		System.out.println("\tAfter Sort: ");
 		for (int i: intarray)
 		{
-			System.out.println(i + ", ");
+			System.out.print(i + ", "); //print in one line looks more clear
 		}
 	
 	}
@@ -54,3 +54,4 @@ public class main {
 		
 	}
 }
+

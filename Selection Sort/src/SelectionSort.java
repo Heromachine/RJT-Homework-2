@@ -1,6 +1,6 @@
 
-public class main {
-
+public class SelectionSort {
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 int intarray[] = {9, 3, 7, 2, 1};
@@ -43,4 +43,5 @@ int intarray[] = {9, 3, 7, 2, 1};
 		
 		
 	}
+
 }

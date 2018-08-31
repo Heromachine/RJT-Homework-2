@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Armstrong Number/src"/>
+	<classpathentry kind="src" path="BinarySearch/src"/>
+	<classpathentry kind="src" path="Bubble Sort/src"/>
+	<classpathentry kind="src" path="Factorial Number/src"/>
+	<classpathentry kind="src" path="Fibonacci Series/src"/>
+	<classpathentry kind="src" path="InserstionSort/src"/>
+	<classpathentry kind="src" path="Palindrome Numbers/src"/>
+	<classpathentry kind="src" path="Prime Sereis/src"/>
+	<classpathentry kind="src" path="Selection Sort/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,7 +1,7 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
-public class main {
-
+public class PalindromeInt {
+	
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in); 
@@ -24,5 +24,6 @@ public class main {
 				System.out.println(n + ", "); 
 		}
 	}
+// it lacks a message to say if the number is a palindrome or not !
 
 }

@@ -1,7 +1,7 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
-public class main {
-
+public class FibonacciSeries {
+	
 	public static void main(String[] args) 
 	{
 		
@@ -24,7 +24,5 @@ public class main {
 		 
 		 System.out.print("the seris are: " + S);
 	}
-	
-	
 
 }

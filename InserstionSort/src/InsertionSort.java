@@ -1,6 +1,6 @@
 
-public class main {
-
+public class InsertionSort {
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -18,7 +18,7 @@ public class main {
 		System.out.println("\tAfter Sort: ");
 		for (int i: intarray)
 		{
-			System.out.println(i + ", ");
+			System.out.print(i + ", "); // print in same line for better understanding
 		}
 
 		
@@ -41,5 +41,5 @@ public class main {
 		}
 		
 	}
-	
+
 }
