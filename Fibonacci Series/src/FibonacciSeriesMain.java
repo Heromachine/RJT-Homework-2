@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class main {
+public class FibonacciSeriesMain {
 
 	public static void main(String[] args) 
 	{

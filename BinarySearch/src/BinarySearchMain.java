@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Scanner; 
 
-public class main {
+public class BinarySearchMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

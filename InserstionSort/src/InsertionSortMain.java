@@ -1,5 +1,5 @@
 
-public class main {
+public class InsertionSortMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
