@@ -1,8 +1,12 @@
 import java.util.*;
+
+
 public class ArmstrongMain {
 
 	public static void main(String[] args) 
 	{
+		Carmstrong AS = new Carmstrong();
+		
 		Scanner sc = new Scanner (System.in); 
 		
 		int n;		
@@ -10,25 +14,17 @@ public class ArmstrongMain {
 		n = sc.nextInt();
 		
 		
-		int temp = n; 
-		int r, sum = 0; 
 		
-		while (n > 0)
+		if (AS.isArmstrong(n))
 		{
-			r = n%10;
-			n = n/10;
-			sum = sum + r*r*r; 
-		}
-		
-		if (temp == sum)
-		{
-			System.out.print("Armstrong number ");
+			System.out.print("IS ARMSTRONG");
 		}
 		else 
 		{
-			System.out.print("NOT Armstrong number");
+			System.out.println("NOT ARMTRONG");
 		}
-
+		
+		
 	}
 
 }
