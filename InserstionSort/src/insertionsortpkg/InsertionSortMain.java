@@ -1,3 +1,4 @@
+package insertionsortpkg;
 
 public class InsertionSortMain {
 
@@ -5,6 +6,8 @@ public class InsertionSortMain {
 		// TODO Auto-generated method stub
 		
 		int intarray[] = {9, 3, 7, 2, 1};
+		InsertionSortClass ISC = new InsertionSortClass();
+		
 		
 		System.out.println("\tBefore Sort: ");
 		for (int i: intarray)
@@ -13,32 +16,14 @@ public class InsertionSortMain {
 		}
 		
 		System.out.println("\n--------------\n ");
-		insertionsort(intarray);
+		
 		
 		System.out.println("\tAfter Sort: ");
-		for (int i: intarray)
+		for (int i: ISC.insertionsort(intarray))
 		{
-			System.out.println(i + ", ");
+			System.out.print(i + ", ");
 		}
 
-		
-	}
-	
-	public static void insertionsort(int[] A)
-	{
-		for(int i = 1; i < A.length; i++) 
-		{
-			int key = A[i];
-			int j = i -1;
-			
-			while(j>=0 && A[j] > key)
-			{
-				A[j+1] = A[j];
-				j--;
-			}
-			
-			A[j+1] = key; 
-		}
 		
 	}
 	
