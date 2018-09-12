@@ -14,10 +14,10 @@ public class PrimeSeriesMain
 		PrimeNumber PN = new PrimeNumber();
 		if (PN.isPrime(num))
 		{
-			System.out.println(num + "IS PRIME");
+			System.out.println(num + " IS PRIME");
 		}
 		else 
-			System.out.println(num + "IS NOT PRIME");
+			System.out.println(num + " IS NOT PRIME");
 			
 	}
 		
