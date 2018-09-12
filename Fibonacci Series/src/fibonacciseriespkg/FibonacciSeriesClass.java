@@ -3,7 +3,7 @@ package fibonacciseriespkg;
 
 public class FibonacciSeriesClass {
 	
-	public static String makeFibSereis(int number)
+	public static String makeFibSeries(int number)
 	{
 		int f1=0;
 		int f2 =1;
