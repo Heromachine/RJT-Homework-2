@@ -4,27 +4,12 @@ public class PrimeNumber {
 	
 	public boolean isPrime(int number)
 	{
-		boolean isP = false;
+		if (number%2 == 0) return false;
 		
-		for i in range(2, int(math.sqrt(num)) + 1):
-
-	       if (num % i == 0)
-
-	        return False
-
-	     return True
-		
-		if(j == i)
+		for (int i = 3; i * i <= number; i+=2)
 		{
-			System.out.println(i);
+			if (number%i == 0) return false; 
 		}
-		if(i%j == 0)
-		{
-			break;
-		}
-		
-		return isP;
-		
+		return true; 		
 	}
-
 }

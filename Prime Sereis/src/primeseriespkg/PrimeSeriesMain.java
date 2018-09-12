@@ -1,22 +1,25 @@
 package primeseriespkg;
 
+import java.util.Scanner;
+
 public class PrimeSeriesMain 
 {
 	public static void main(String[] args) 
 	{
-		for (int i = 2; i <= 100; i++)
-		{	
-			for(int j = 2; j <= i; j++)
-			{
-				if(j == i)
-				{
-					System.out.println(i);
-				}
-				if(i%j == 0)
-				{
-					break;
-				}
-			}			
+		
+		Scanner sc = new Scanner(System.in); 
+		System.out.print("Enter Range: ");
+		int num = sc.nextInt();
+		
+		PrimeNumber PN = new PrimeNumber();
+		if (PN.isPrime(num))
+		{
+			System.out.println(num + "IS PRIME");
 		}
-	} 
+		else 
+			System.out.println(num + "IS NOT PRIME");
+			
+	}
+		
+		
 }
