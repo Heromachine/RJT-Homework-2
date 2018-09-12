@@ -9,8 +9,7 @@ public class PalindromNumbersMain {
 		
 		Scanner sc = new Scanner(System.in); 
 		System.out.print("Enter Range: ");
-		int r = sc.nextInt();
-		
+		int r = sc.nextInt();		
 		
 		if (PNC.isPanindrom(r))
 		{
@@ -19,24 +18,6 @@ public class PalindromNumbersMain {
 		else
 		{
 			System.out.println(r + " IS NOT PALINDROM"); 
-		}
-		
-		for (int i = 0; i <= r; i++)
-		{	
-			int n = i; 			
-			int temp = n;
-			int reverse = 0;
-			
-			while (temp != 0)
-			{
-				reverse = reverse * 10; 
-				reverse = reverse + temp%10;
-				temp = temp/10; 
-			}
-			
-			if (n == reverse)
-				System.out.println(n + ", "); 
-		}
+		}		
 	}
-
 }
